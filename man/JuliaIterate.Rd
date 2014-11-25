@@ -19,29 +19,24 @@ JuliaIterate(z, C)
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+ 'JuliaIterate' returns the number of iteration until a complex value
+  diverges for the Julia map for a give complex number.
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+ Number of iterations.
 }
 \references{
-%% ~put references to the literature/web site here ~
+ The Fractal Geometry of Nature, Benoit B. Mandelbrot, W.H.Freeman & Co Ltd (18 Nov 1982)
 }
 \author{
 Mehmet Suzen <mehmet.suzen@physics.org>
 }
 \note{
-%%  ~~further notes~~
+ Iterative function.
 }
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+  \code{\link{JuliaIterate}} and \code{\link{MandelIterate}}
 }
 \examples{
   z<-0+0i

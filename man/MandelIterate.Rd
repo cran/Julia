@@ -1,6 +1,5 @@
 \name{MandelIterate}
 \alias{MandelIterate}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 MandelIterate
 }
@@ -14,39 +13,28 @@ MandelIterate(z_0)
 \arguments{
   \item{z_0}{
     A complex coordinate (constant coefficient value for the map)
-    
    }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+ Iterate function.
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+ Returns an integer
 }
 \references{
-%% ~put references to the literature/web site here ~
+  The Fractal Geometry of Nature, Benoit B. Mandelbrot, W.H.Freeman & Co Ltd (18 Nov 1982)
 }
 \author{
 Mehmet Suzen <mehmet.suzen@physics.org>
 }
 \note{
-%%  ~~further notes~~
+ Iterate function
 }
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+  \code{\link{JuliaIterate}} and \code{\link{MandelIterate}}
 }
 \examples{
-  z_0<-0-0.5i
-  it<- MandelIterate(z_0)
+  z_0 <- 0-0.5i
+  it  <- MandelIterate(z_0)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-%\keyword{ ~kwd1 }
-%\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

@@ -13,8 +13,8 @@ the complex plane in the given region and resolution.
 \tabular{ll}{
 Package: \tab Julia\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2011-02-11\cr
+Version: \tab 1.1\cr
+Date: \tab 2014-11-25\cr
 License: \tab GPL-3 \cr
 LazyLoad: \tab yes\cr
 }
@@ -25,9 +25,11 @@ Mehmet Suzen
 Maintainer: Mehmet Suzen <mehmet.suzen@physics.org>
 }
 \references{
+ The Fractal Geometry of Nature, Benoit B. Mandelbrot, W.H.Freeman & Co Ltd (18 Nov 1982)
 }
-\keyword{ package }
+\keyword{package}
 \seealso{
+  \code{\link{JuliaIterate}} and \code{\link{MandelIterate}}
 }
 \examples{
 # Julia Set

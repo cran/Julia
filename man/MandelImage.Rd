@@ -32,20 +32,16 @@ MandelImage(imageN, centre, L)
     coordinate.
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+ Returns a matrix.
 }
 \references{
-%% ~put references to the literature/web site here ~
+ The Fractal Geometry of Nature, Benoit B. Mandelbrot, W.H.Freeman & Co Ltd (18 Nov 1982)
 }
 \author{
 Mehmet Suzen <mehmet.suzen@physics.org>
 }
 \note{
-%%  ~~further notes~~
+ Returns a matrix
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~

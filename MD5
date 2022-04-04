@@ -1,4 +1,4 @@
-51d3f11ca956c03f3fae6fd01db0e5a0 *DESCRIPTION
+50d780107e9be2018c411fbf5d69c55d *DESCRIPTION
 9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
 ab1dfafceb72649e889407bf5f626e18 *R/JuliaImage.R
 ac9bafc64277ff0ee4434ae558f28e09 *R/JuliaIterate.R
@@ -6,7 +6,7 @@ ac9bafc64277ff0ee4434ae558f28e09 *R/JuliaIterate.R
 72a0835f951bf6e8f17cbea1d231e162 *R/MandelIterate.R
 b69279f07ba24e4d36e5090109c4d720 *README.md
 d900767cf524cacc0b83a2d05faa2ed3 *man/Julia-package.Rd
-da31e214a72041203c16c460827680d5 *man/JuliaImage.Rd
+ae2664193050b47a0abd5f43bc562581 *man/JuliaImage.Rd
 3a8438d80f07d8b76f22db7dc78f3367 *man/JuliaIterate.Rd
-6727f4d6b286cc1c548a3da8051e0d51 *man/MandelImage.Rd
+8a055e8ef7415931a6f737809ba7f112 *man/MandelImage.Rd
 7a2e1af913659ae767990f3f40b73e3a *man/MandelIterate.Rd

@@ -1,12 +1,15 @@
-50d780107e9be2018c411fbf5d69c55d *DESCRIPTION
+794fb548bbc4690d64f2b5e9b51efdda *DESCRIPTION
 9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
 ab1dfafceb72649e889407bf5f626e18 *R/JuliaImage.R
 ac9bafc64277ff0ee4434ae558f28e09 *R/JuliaIterate.R
 43d2a3d27771f940bb4cdab079775020 *R/MandelImage.R
 72a0835f951bf6e8f17cbea1d231e162 *R/MandelIterate.R
-b69279f07ba24e4d36e5090109c4d720 *README.md
+b7b82d7f8fbd9bfa4fd2ba34670256ad *README.md
 d900767cf524cacc0b83a2d05faa2ed3 *man/Julia-package.Rd
 ae2664193050b47a0abd5f43bc562581 *man/JuliaImage.Rd
 3a8438d80f07d8b76f22db7dc78f3367 *man/JuliaIterate.Rd
 8a055e8ef7415931a6f737809ba7f112 *man/MandelImage.Rd
 7a2e1af913659ae767990f3f40b73e3a *man/MandelIterate.Rd
+08b723f67f083b0bf9d389ac7ad437dd *man/figures/julia0.jpeg
+e0e1833ed1630750be735fc0536399ea *man/figures/mandelbrot0.jpeg
+0d4bc16fddac3cdf3bcf13340e9a3830 *man/figures/mandelbrot1.jpeg

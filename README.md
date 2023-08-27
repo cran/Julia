@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/msuzen/Julia.svg?branch=master)](https://travis-ci.org/msuzen/Julia)
 [![CRAN Version](http://www.r-pkg.org/badges/version/Julia)](https://cran.r-project.org/package=Julia)
 [![Total RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/grand-total/Julia?color=brightgreen)](https://cran.r-project.org/package=Julia)
 [![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/Julia?color=brightgreen)](https://cran.r-project.org/package=Julia)
@@ -27,6 +26,7 @@ A sample visualisation with R's hcl palette `Roma` as set values on
 a grid given as a matrix.
 
 ```r
+par(mar=c(0, 0, 0, 0))
 image(image_matrix[550:1450, 200:1800], 
       col=hcl.colors(2000, palette="Roma"), 
       axes=FALSE, useRaster=TRUE)
@@ -51,6 +51,7 @@ A sample visualisation with R's hcl palette `Roma` as set values on
 a grid given as a matrix.
 
 ```r
+par(mar=c(0, 0, 0, 0))
 image(image_matrix[350:1600, 1:1250], 
       col=hcl.colors(2000,  palette="Roma"),
       axes=FALSE, useRaster=TRUE)
@@ -59,6 +60,7 @@ image(image_matrix[350:1600, 1:1250],
 
 And an other zooming 
 ```r
+par(mar=c(0, 0, 0, 0))
 image(image_matrix[800:1200, 200:600], 
       col=hcl.colors(2000,  palette="Roma"),
       axes=FALSE, useRaster=TRUE)
@@ -67,5 +69,5 @@ image(image_matrix[800:1200, 200:600],
 
 ## Acknowledgements
 
-Author is grateful to Professor Maitra, Ranjan for his suggestions on reviving the package.
+Author is grateful to Ranjan Maitra for his suggestions on reviving the package.
 
